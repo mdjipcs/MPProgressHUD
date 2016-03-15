@@ -1,6 +1,11 @@
 # MPProgressHUD
 
-`Beautful` `Easy Use` `Free` `wangmeng.love` 
+`Beautful` `Easy Use` `Free` `http://developer.wangmeng.love` 
+
+
+Copyright (c) 2016 Huangbaoan.
+
+Everyone is permitted to copy and distribute verbatim copies of this license document(https://github.com/mdjipcs/MPProgressHUD/blob/master/LICENSE), but changing it is not allowed.
 
 ![image](https://github.com/mdjipcs/MPProgressHUD/blob/master/snakShot.png)
 
