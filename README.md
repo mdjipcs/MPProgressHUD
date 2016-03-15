@@ -15,7 +15,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 
 ```objective-c
 
-	#import "MPProgressHUD.h"
+#import "MPProgressHUD.h"
 
 - (IBAction)presendProgressView:(UIButton *)sender {
     
@@ -26,5 +26,6 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
     
     [hud hide:NO afterDelay:50];  
 }
+```objective-c
 
 ![image](https://github.com/mdjipcs/MPProgressHUD/blob/master/snakShot.png)
