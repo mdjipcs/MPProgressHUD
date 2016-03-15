@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Classes/MPProgressHUD.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +22,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)showRegularMode:(UIButton *)sender {
+    
+    MPProgressHUD* hud = [MPProgressHUD
+                          showToView:self.view
+                          Animation:YES
+                          Mode:MPProgressModeRegular];
+    
+    [hud hide:NO afterDelay:50];
 }
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2375C7011C97FB9800A23BFA /* MPProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2375C6FD1C97FB9800A23BFA /* MPProgressHUD.m */; };
+		2375C7021C97FB9800A23BFA /* MPProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2375C6FF1C97FB9800A23BFA /* MPProgressView.m */; };
 		23DFCE7B1C97F84A00283845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DFCE7A1C97F84A00283845 /* main.m */; };
 		23DFCE7E1C97F84A00283845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DFCE7D1C97F84A00283845 /* AppDelegate.m */; };
 		23DFCE811C97F84A00283845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DFCE801C97F84A00283845 /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		23DFCE8C1C97F84A00283845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFCE8A1C97F84A00283845 /* LaunchScreen.storyboard */; };
 		23DFCE971C97F84A00283845 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DFCE961C97F84A00283845 /* DemoTests.m */; };
 		23DFCEA21C97F84A00283845 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DFCEA11C97F84A00283845 /* DemoUITests.m */; };
+		23DFCEB01C97FA1300283845 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 23DFCEAF1C97FA1300283845 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2375C6FD1C97FB9800A23BFA /* MPProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPProgressHUD.m; path = Classes/MPProgressHUD.m; sourceTree = "<group>"; };
+		2375C6FE1C97FB9800A23BFA /* MPProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPProgressHUD.h; path = Classes/MPProgressHUD.h; sourceTree = "<group>"; };
+		2375C6FF1C97FB9800A23BFA /* MPProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPProgressView.m; path = Classes/MPProgressView.m; sourceTree = "<group>"; };
+		2375C7001C97FB9800A23BFA /* MPProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPProgressView.h; path = Classes/MPProgressView.h; sourceTree = "<group>"; };
 		23DFCE761C97F84A00283845 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DFCE7A1C97F84A00283845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23DFCE7C1C97F84A00283845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 		23DFCE9D1C97F84A00283845 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DFCEA11C97F84A00283845 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		23DFCEA31C97F84A00283845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DFCEAF1C97FA1300283845 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = /Users/yishanpei/GitHub/MPProgressHUD/Demo/Demo/Classes; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 		23DFCE781C97F84A00283845 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2375C6FD1C97FB9800A23BFA /* MPProgressHUD.m */,
+				2375C6FE1C97FB9800A23BFA /* MPProgressHUD.h */,
+				2375C6FF1C97FB9800A23BFA /* MPProgressView.m */,
+				2375C7001C97FB9800A23BFA /* MPProgressView.h */,
 				23DFCE7C1C97F84A00283845 /* AppDelegate.h */,
 				23DFCE7D1C97F84A00283845 /* AppDelegate.m */,
 				23DFCE7F1C97F84A00283845 /* ViewController.h */,
@@ -247,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23DFCE8C1C97F84A00283845 /* LaunchScreen.storyboard in Resources */,
+				23DFCEB01C97FA1300283845 /* Classes in Resources */,
 				23DFCE891C97F84A00283845 /* Assets.xcassets in Resources */,
 				23DFCE841C97F84A00283845 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2375C7011C97FB9800A23BFA /* MPProgressHUD.m in Sources */,
 				23DFCE811C97F84A00283845 /* ViewController.m in Sources */,
 				23DFCE7E1C97F84A00283845 /* AppDelegate.m in Sources */,
 				23DFCE871C97F84A00283845 /* Demo.xcdatamodeld in Sources */,
+				2375C7021C97FB9800A23BFA /* MPProgressView.m in Sources */,
 				23DFCE7B1C97F84A00283845 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +517,7 @@
 				23DFCEA81C97F84A00283845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23DFCEA91C97F84A00283845 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +526,7 @@
 				23DFCEAB1C97F84A00283845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23DFCEAC1C97F84A00283845 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +535,7 @@
 				23DFCEAE1C97F84A00283845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
